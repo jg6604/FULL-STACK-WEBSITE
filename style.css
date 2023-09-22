@@ -1,0 +1,327 @@
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: lightblue;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: lightgoldenrodyellow;
+
+    /* Adjust the padding and margins */
+    padding-top: 20;
+    padding-left: 20;
+    padding-right: 20;
+    padding-bottom: 20;
+
+    margin-top: 30;
+    margin-left: 30;
+    margin-right: 30;
+    margin-bottom: 30;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+  color: navy;
+  background-color:lavender;
+  text-align:center;
+  font-size:40px;
+}
+
+h2 {
+  color:navy;
+}
+
+h3 {
+  color:honeydew;
+}
+
+h4{
+  color:rebeccapurple
+}
+
+p {
+  color:lightcoral;
+  font-family:Georgia;
+  border:2px solid powderblue;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:0px;
+  margin-left:0px;
+  border-style:solid;
+}
+
+a {
+
+}
+
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+  <li> </li>
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color: white;
+  border: none;
+  color: slategray;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  text-align:center;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  header-item:nth-of-type(1);
+  header-item:nth-of-type(2);
+  header-img;
+  header-button;
+  div;
+  display:flex;
+  flex-direction:row;
+
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  margin-right:100px;
+  margin_left:100px;
+  width:200px;
+  max-width:1000px;
+  text-align:center;
+
+}
+
+.header-item:nth-of-type(1){
+  width:40%;
+}
+
+.header-item:nth-of_type(2){
+  width:60%;
+}
+
+.header-button{
+  background-color:pink;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  font-size:16px;
+  color:green;
+  border:none;
+  cursor:pointer;
+   
+}
+
+  
+.div{
+  background-color:lightblue;
+  text-align:center;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  border-style:dotted;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:slategray;
+  color:white;
+  text-align:center;
+}
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    margin_bottom:10px;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: right;
+    margin: 60px;
+    display:block;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+/* Add style to button */
+#theme-button {
+  text-decoration:none;
+  font:static;
+  color:blue;
+  padding:10px;
+  border:dotted;
+  border-width:3px;
+
+}
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color:black;
+  color:white;
+}
+
+.petition-container{
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+  width:100;
+  padding-bottom:50px;
+}
+
+.petition_para{
+  width:55%;
+  padding-right:10px;
+  
+}
+
+.signatures{
+  width:45%;
+  padding-right:10px;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

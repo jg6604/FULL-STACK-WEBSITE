@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gender Inequality</title> <!-- the content here will only show in the tab and in the metadata about the page -->
+    <link rel="icon" href="img/p3.jpeg">
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+      <div class="modal-content">
+        <div id="modal-text-container">
+      <!-- text here -->
+          <p id="thanks-modal-content">Thank You!</p>
+      <!-- button here (stretch feature) -->
+        </div>
+    <!-- image here-->
+        <img src="img/h5.jpeg" alt="thanks" height= "300" width="410"/> 
+        
+      </div>
+    
+    </div>
+
+      <!-- Part 1: Navbar Starter Code -->
+
+    <div class="navbar">
+       <ul>
+         <li ><button id="theme-button">Toggle Dark Mode</button></li>
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">ABOUT</a></li>
+         <li><a href="#">RESOURCES</a></li>
+         <li><a href="#">CONTACT US</a></li>
+         <!-- Stretch Challenge: Drop Down -->
+       </ul>
+    </div>
+
+    <!--- Headings --->
+    <img src="img/p2.jpeg" alt="girl is reading a book" height= "300" width="1410"/> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
+    <h1>Gender Inequality</h1>
+    <h3> Women who is facing the unfair pay, violence from a partner, girls cannot obtain education because of their gender in some countries. </h3>
+    <button type="button">RESOURCES</button>
+    <button type="button">NEWS</button>
+
+
+    <!--- About --->
+    <h2>What is gender inequality?</h2>
+    <p> Gender inequality is discrimination on the basis of sex or gender causing one sex or gender to be routinely privileged or prioritized over another. Gender equality is a fundamental human right and that right is violated by gender-based discrimination.Gender disparity starts in childhood and is right now limiting the lifelong potential of children around the world – disproportionately affecting girls.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ad2gJVrB_rk"></iframe>
+
+
+    <!--- Data 
+
+    <h3>Data about gender inequality issue</h3>
+    <img src="" />
+    <h4>Add some charts + captions that illustrate my topic and why it is a problem </h4>
+
+    <ul>
+        <li> less than 15%</li>
+        <li> 15%-25%</li>
+        <li> 25%-35%</li>
+        <li> 35%-45%</li>
+        <li> >45%</li>
+    </ul>--->
+    <!--- Impact --->
+    <h2>Impact of Gender Inequality</h2>
+
+    <img src="img/p1.jpeg" alt="indian women" height= "350" width="1410"/>
+    <h3>"Gender equality is more than a goal itself. It is a precondition for meeting the chanllenge of reducing poverty, promoting sustainable development and building good governance."</h3>
+    <p> A promising solution to build prosperity and equalize the balance of power across gender relationships rests on greater economic independence for women. Investing in women yields profound returns not only for the women involved, but also for their families and for society-at-large. 
+    </p>
+<!---
+    <img src="" />
+    <h3>Where else can this problem have lasting effects?</h3>
+    <p>Why?
+    </p>
+
+    <img src="" />
+    <h3>Where else else can this problem have lasting effects?</h3>
+    <p>Why?
+    </p>--->
+
+  <div class="petition" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+        <!-- info goes here -->
+        <h3>Defined as the unequal treatment or perception of an individual based on gender, gender inequality remains a challenge for women of all ages across the globe. Even in the United States, the International Labor Organization estimates that women encounter almost a 20% pay gap compared with the salaries of male counterparts. In countries on the path to development, gender inequality is manifested in other ways throughout a woman’s life cycle as she seeks education, healthcare, work, political participation, and acquisition of assets. We ask that you join us by signing this petition in goverment and community should support of help women to achieve prosperity to gain economic independence through sustainable employment and to help women to obtain the education, technology and capital need to meet their personal and professional goals. </h3>
+      </div>
+
+      <div class="signatures">
+        🖊️ Sophie from New York supports this.
+        <br>
+        <div id="addSignature"></div>
+        <br>
+        <!---<div id="counter"> 🖊️ 1 people have signed this petition and support this cause. </div>--->
+
+      </div>
+     </div>
+  <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+    <!-- inputs go here -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="Name" value="">
+    <label for="hometown">Hometown:</label>
+    <input type="text" id="hometown" name="Hometown" value=""><br>
+    <br>
+    </form>
+
+     <!--- Sign Now Button --->
+    <!---<button id="sign-now-button">Sign Now</button>--->
+    <input id="sign-now-button" type="button" onclick=addSignature() value="Sign Now">
+    <br>
+    <div id="addSignature"></div>
+    <br>
+  </div>
+ 
+
+    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+    <h2>Related Articles</h2>
+
+    <a class="a"
+        href='https://www.bbvaopenmind.com/en/articles/gender-inequalities-past-issues-and-future-possibilities/'>
+        
+        <article>
+            <h3>Gender Inequalities: “Past” Issues and Future Possibilities</h3>
+        </article>
+    </a>
+    <a class="a"
+        href='https://www.unicef.org/gender-equality'>
+        
+        <article>
+            <h3>Gender equality</h3>
+
+        </article>
+    </a> 
+
+    <a class="a"
+        href='https://www.savethechildren.org/us/charity-stories/how-gender-discrimination-impacts-boys-and-girls'>
+        
+        <article>
+            <h3>Gender Discrimination: Inequality Starts in Childhood</h3>
+
+        </article>
+    </a> 
+
+
+
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+    <div class="header-container">
+      <div class="header-left"></div>
+      <div class="header-left"></div>
+      <div class="header-left"></div>
+    </div>
+  
+    <div class="div">
+       <h2></h2>
+
+    </div>
+  <br>
+    <div class="footer">
+       <p>Contact Us: jg6604@nyu.edu</p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
